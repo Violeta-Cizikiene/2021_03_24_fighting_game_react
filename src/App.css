@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -28,6 +29,53 @@
   color: #61dafb;
 }
 
+#cat {
+  height: 100px;
+  margin-top: 20px;
+}
+
+.card {
+  height: 150px;
+  width: 1000px;
+  border: 1px solid red;
+  box-shadow: 5px 5px 15px 5px #000000;
+  background-color: grey;
+  margin: 20px;
+  border-radius: 20px;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: grey;
+  padding-top: 45px;
+}
+
+.content {
+  display: flex;
+}
+
+.sideBar {
+  width: 200px;
+  background-color: pink;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: grey;
+  padding-top: 45px;
+}
+
+.header button, .sideBar button, .footer button{
+  margin: 20px;
+  width: 100px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
