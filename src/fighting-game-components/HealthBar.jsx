@@ -1,8 +1,14 @@
-function HealthBar() {
+function HealthBar({health}) {
 
 	return (
-		<div className="HealthBar">
-			<button></button>			
+		<div className="HealthBarContainer">
+			<span>HEALTH BAR</span>
+			<div className="HealthBar">
+				<div style={{
+					/*atvaizduos skaiciai su procento zenklu*/
+					width: `${health}%`
+				}}></div>			
+			</div>
 		</div>
 	);
 }

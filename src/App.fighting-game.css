@@ -1,0 +1,90 @@
+.App {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px;
+	padding: 40px;
+	background-image: url('./JXGxvZO.gif');
+	background-size: cover;
+}
+
+.weapons_player_health, 
+.coins_potion_hit,
+.player_health {
+	width: 30%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+}
+
+.Fighter {
+	width: 50%;
+}
+
+.Fighter img {
+	width: 100%;
+}
+
+.weapons {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.BuyButton span {
+	display: none;
+	position: absolute;
+}
+
+.BuyButton:hover span {
+	display: block;
+} 
+
+.BuyButton img {
+	width: 50px; 
+	cursor: pointer;
+}
+
+.HealthBar {
+	width: 400px;
+	height: 30px;
+	background-color: grey;
+	border-radius: 15px;
+	margin-top: 10px;
+}
+
+.HealthBarContainer {
+	color: #fff;
+
+}
+.HealthBar div {
+	width: 80%;
+	height: 100%;
+	background-color: orange;
+	border-radius: 15px;
+}
+
+.coins_potion_hit {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+}
+
+.potion {
+	width: 100px;
+	height: 100px;
+	background-image: url('./potion.png'); 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center bottom;	
+	text-align: center;	
+	cursor: pointer;
+}
+
+.potion span {	
+	top: -30px;
+	position: relative;
+}

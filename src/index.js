@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App_cookie_game';
+import App from './App.fighting-game';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

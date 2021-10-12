@@ -1,8 +1,8 @@
-function Fighter() {
+function Fighter({img}) {
 
 	return (
 		<div className="Fighter">
-			<button></button>			
+			<img src={img}/>			
 		</div>
 	);
 }
