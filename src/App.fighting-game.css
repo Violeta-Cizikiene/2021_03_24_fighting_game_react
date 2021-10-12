@@ -5,6 +5,8 @@
 	padding: 40px;
 	background-image: url('./JXGxvZO.gif');
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .weapons_player_health, 
@@ -27,11 +29,24 @@
 	width: 100%;
 }
 
+.Fighter.Songoku {
+	width: 75%;
+}
+
+.Fighter.Vegeta {
+	margin-top: 20%;
+}
+
 .weapons {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
 }
+.BuyButton {
+	width: 50px; 
+	height: 50px;
+}
+
 .BuyButton span {
 	display: none;
 	position: absolute;
@@ -43,6 +58,7 @@
 
 .BuyButton img {
 	width: 50px; 
+	height: 50px;
 	cursor: pointer;
 }
 

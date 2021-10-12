@@ -60,7 +60,7 @@ function App() {
 					<BuyButton selected={weapon == weapons.magicWand} onClick={onWeaponClick} weapon={weapons.magicWand}/>
 				</div>
 
-				<Fighter img="/img_player/s.png"/>
+				<Fighter className="Songoku" img="/img_player/s.png"/>
 				<HealthBar health={playerHealth}/>
 
 			</div>
@@ -95,7 +95,7 @@ function App() {
 			</div>
 
 			<div className="player_health">
-				<Fighter img={enemies[0].img}/>
+				<Fighter className="Vegeta" img={enemies[0].img}/>
 				<HealthBar health={monsterHealth}/>
 			</div>
 

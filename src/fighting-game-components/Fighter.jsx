@@ -1,7 +1,7 @@
-function Fighter({img}) {
+function Fighter({img, className}) {
 
 	return (
-		<div className="Fighter">
+		<div className={"Fighter " + className}>
 			<img src={img}/>			
 		</div>
 	);
