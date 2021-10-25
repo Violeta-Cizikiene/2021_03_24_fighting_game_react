@@ -1,8 +1,8 @@
-function HealthBar({health}) {
+function HealthBar({health}) { //per propsus ateina
 
 	return (
 		<div className="HealthBarContainer">
-			<span>HEALTH BAR</span>
+			<span>{`HEALTH BAR ${Math.round(health)}/100`}</span>
 			<div className="HealthBar">
 				<div style={{
 					/*atvaizduos skaiciai su procento zenklu*/

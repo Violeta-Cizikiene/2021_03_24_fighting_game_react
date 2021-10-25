@@ -90,7 +90,7 @@
 }
 
 .potion {
-	width: 100px;
+	width: 150px;
 	height: 100px;
 	background-image: url('./potion.png'); 
 	background-size: contain;

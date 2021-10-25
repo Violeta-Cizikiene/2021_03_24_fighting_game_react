@@ -72,7 +72,11 @@ function App() {
 						setCoins(coins - 50)
 						setplayerHealth(100)
 					}
-				}} className="potion"><span>POTION</span></div>
+				}} className="potion"><span>POTION (50 coins)</span></div>
+				<button onClick={() => {
+					// psl perkrovimas
+					window.location.reload()
+				}}>REFRESH</button>
 				<button onClick={() => {
 					// ginklo zala taskais
 					let damage = weapon.damage
